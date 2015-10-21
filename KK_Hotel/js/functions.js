@@ -353,7 +353,7 @@
 	/* End Map */
 	
 	/* Map */
-	function initialize(obj) {
+	/*function initialize(obj) {
 		var lat = $('#'+obj).attr("data-lat");
 		var lng = $('#'+obj).attr("data-lng");
 		var contentString = $('#'+obj).attr("data-string");
@@ -393,7 +393,7 @@
 			infowindow.open(map,marker);
 		});	
 	}
-	
+	*/
 	/* Event - Window Scroll */
 	$(window).scroll(function()
 	{
@@ -876,7 +876,7 @@
 				}
 			});
 			return false;
-			$('#contact-form').attr("action", "saveQuery").submit();
+			//$('#contact-form').attr("action", "saveQuery").submit();
 		});
 		
 		/* Flex Slider */
